@@ -1,0 +1,316 @@
+/** COMMON **/
+.active {
+	background: purple;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+/** COMMON**/
+
+/**CSS TRANG CHỦ BEGIN**/
+
+
+.box {
+    padding: 0 5px 0 5px;
+}
+
+html,body {
+	min-width: 100%;
+	min-height: 100%;
+}
+#header {
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+				url(../images/background_trangchu.jpg) no-repeat center fixed;
+	height: 660px;
+	-webkit-background-size: cover; 
+	-moz-background-size : cover;
+	-o-background-size : cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.nav_background_none{
+	background: none !important;
+}
+
+.navbar-center-header{
+	margin-left: 30%;
+}
+
+.navbar-nav a {
+	color:white !important;
+}
+.dropdown-menu{
+	background: #564f4f;	
+}
+.dropdown-menu a:HOVER{
+	background: purple;
+}
+
+.event_header{
+	color: white;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.event_header span{
+	font-size: 1.2em;
+	line-height: 40px;
+}
+
+.event_header button {
+	font-size:24px;
+	margin-top: 20px;
+    background: #3faf86;
+    color: #f8f9fa;
+    font-weight: bold;
+    padding: 0 50px;
+    border: none;
+    cursor: pointer;
+} 
+
+/** CSS THONG TIN THEM BEGIN**/
+#infor{
+	text-align: center;
+	margin-top: 48px;
+}
+.icon {
+	width: 48px;
+	height: 48px;
+}
+
+.text-infor {
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/** CSS THONG TIN THEM END**/
+
+/** CSS HOT PRODUCT ITEMS BEGIN**/
+.hot-product-title {
+	text-align: center;
+	margin-top: 48px;
+}
+.hot-product-items{
+	margin-top: 42px;
+}
+.product-item{
+	text-align: center;
+	margin-bottom: 24px;
+}
+.product-text{
+	text-align: center;
+}
+.product-cost{
+	font-size: 14px;
+	color: red;							
+}
+/** CSS HOT PRODUCT ITEMS END**/
+/** CSS FOOTER BEGIN**/
+#footer{
+	padding-top: 48px;
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+				url(../images/url-24.jpg) no-repeat center center;
+	padding-bottom: 32px;
+}
+
+.text-footer{
+	color: white;
+	text-align: center;
+}
+
+.material-input-text {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.material-ta-text {
+	width: 100%;
+	margin-bottom: 8px;
+}
+.primary-button {
+	width: 100%;
+	background-color: #00768c;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+/** CSS FOOTER END**/
+
+
+/** Extra small devices (portrait phones, less than 576px) 0-575 **/
+@media (max-width: 575px) {
+	.navbar-center-header{
+		margin-left: 0%;
+	}
+	.text-infor {
+		font-size: 20px;
+	}
+}
+ 
+/** Small devices (landscape phones, 576px and up) 576-767 **/
+@media (min-width: 576px) and (max-width: 767px) { 
+	.navbar-center-header{
+		margin-left: 0%;
+	}
+	.text-infor {
+		font-size: 22px;
+	}
+}
+
+/** Medium devices (tablets, 768px and up) 768-991**/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-center-header{
+		margin-left: 0%;
+	}
+	
+	.text-infor {
+		font-size: 28px;
+	}
+}
+
+/** Large devices (desktops, 992px and up) 992-1199**/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-center-header{
+		margin-left: 16%;
+	}
+	
+	.text-infor {
+		font-size: 36px;
+	}
+	
+}
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { ... }
+
+/**CSS TRANG CHỦ END**/
+
+
+/** CSS LOGIN BEGIN**/
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-50 {
+	margin-top: 50px;
+}
+#body-login{
+	background-color: #00909C;
+}
+
+#body-flex-login{
+	display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;	
+}
+
+#container-login{
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+} 
+/* css bắt đầu của phần bên trái*/
+#container-login-left{
+	width: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 610px;
+    background-image: url(../images/backgrounddangnhap.png);
+    padding: 0 16px;
+}
+
+#header-top-left{
+	text-align: center;
+	color:white;
+}
+
+#header-bottom-left{
+	color: white;
+	margin-bottom: 64px;
+}
+
+#header-bottom-left span{
+	margin-left: 8px;
+}
+
+.heder-login{
+	padding-top: 32px;
+}
+
+#text-logo{
+	font-size: 48px;
+}
+
+#hint-text-logo{
+	font-size: 12px;
+	opacity: 0.7;
+}
+/* css kết thúc phần bên trái*/
+
+
+/* css login right */
+#container-login-right{
+	padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#header-top-right{
+	font-size:20px;
+	color: #878787;
+}
+
+.actived{
+	color:#DA7C79;
+}
+#container-social-login{
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+#container-center-login-right input[type=text] {
+	margin-top: 8px;
+}
+
+#container-center-login-right input[type=submit] {
+	margin-top: 24px;
+}
+
+.material-textinput{
+	height: 38px;
+    width: 100%;
+    padding-left: 40px;
+    border: none;
+}
+
+.material-primary-button{
+	height: 38px;
+    border: none;
+    background: #00989C;
+    width: 100%;
+}
+
+
+.input-icon-email{
+	background: url("../images/ic_email.png") no-repeat scroll 14px 12px;
+    background-color: #D8D8D8;
+  
+}
+
+.input-icon-password{
+	background: url("../images/ic_lock.png") no-repeat scroll 16px 8px;
+    background-color: #D8D8D8;
+}
+
+/** CSS LOGIN END**/
+
+
+
+
